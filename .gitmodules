@@ -1,0 +1,3 @@
+[submodule "lisp/elegant-emacs"]
+	path = lisp/elegant-emacs
+	url = git@github.com:wwulfric/elegant-emacs.git
