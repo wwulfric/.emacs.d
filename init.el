@@ -1,7 +1,9 @@
 (let ((default-directory  "~/.emacs.d/lisp/"))
  (normal-top-level-add-subdirs-to-load-path))
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'elegance)
 (require 'sanity)
+(require 'my-gtd)
 (elegance-light)
 ;(require 'snails)
 
@@ -71,5 +73,6 @@
      (list (line-beginning-position)
            (line-beginning-position 2)))))
 
-(setq org-directory "~/org/")
-(setq org-agenda-files '("~/org"))
+
+; 开启自动折行
+(setq truncate-lines nil)
