@@ -1,10 +1,12 @@
 ;; Files
-(setq org-directory "~/Library/Mobile Documents/com~apple~CloudDocs/org")
-(setq org-agenda-files '("~/Library/Mobile Documents/com~apple~CloudDocs/org/"))
+(setq org-directory "~/org")
+(setq org-agenda-files '("~/org/"))
+
 
 ;(setq org-agenda-files (list "inbox.org" "agenda.org"
 ;                             "notes.org" "projects.org"))
 
+(setq org-log-done 'time)
 ;; Capture
 (setq org-capture-templates
       `(("i" "Inbox" entry  (file "inbox.org")
