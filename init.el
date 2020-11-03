@@ -1,11 +1,19 @@
-(let ((default-directory  "~/.emacs.d/lisp/"))
- (normal-top-level-add-subdirs-to-load-path))
-(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
-(require 'elegance)
-(require 'sanity)
-(require 'my-gtd)
-(elegance-light)
-;(require 'snails)
+(let (;; temporarily increase `gc-cons-threshold' when loading to speed up startup.
+      (gc-cons-threshold most-positive-fixnum)
+      ;; Empty to avoid analyzing files when loading remote files.
+      (file-name-handler-alist nil))
+
+  ;; Emacs configuration file content is written below.
+
+  (let ((default-directory  "~/.emacs.d/lisp/"))
+    (normal-top-level-add-subdirs-to-load-path))
+  (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+  (require 'elegance)
+  (require 'sanity)
+  (elegance-light)
+  (require 'my-gtd)
+  ;(require 'snails)
+  )
 
 ;; mac 快捷键
 (global-set-key [(hyper a)] 'mark-whole-buffer)
