@@ -24,3 +24,5 @@ tramp
 .emacs.desktop.lock
 network-security.data
 bookmarks
+ido.last
+*.cache

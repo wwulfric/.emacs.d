@@ -1,3 +1,24 @@
 [submodule "lisp/elegant-emacs"]
 	path = lisp/elegant-emacs
 	url = git@github.com:wwulfric/elegant-emacs.git
+[submodule "lisp/haskell-mode"]
+	path = lisp/haskell-mode
+	url = https://github.com/haskell/haskell-mode.git
+[submodule "lisp/swiper"]
+	path = lisp/swiper
+	url = https://github.com/abo-abo/swiper.git
+[submodule "lisp/magit"]
+	path = lisp/magit
+	url = https://github.com/magit/magit.git
+[submodule "lisp/dash.el"]
+	path = lisp/dash.el
+	url = https://github.com/magnars/dash.el
+[submodule "lisp/transient"]
+	path = lisp/transient
+	url = https://github.com/magit/transient
+[submodule "lisp/with-editor"]
+	path = lisp/with-editor
+	url = https://github.com/magit/with-editor.git
+[submodule "lisp/projectile"]
+	path = lisp/projectile
+	url = https://github.com/bbatsov/projectile
