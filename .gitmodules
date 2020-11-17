@@ -11,7 +11,7 @@
 	path = lisp/magit
 	url = https://github.com/magit/magit.git
 [submodule "lisp/dash.el"]
-	path = lisp/dash.el
+	path = lisp/dash
 	url = https://github.com/magnars/dash.el
 [submodule "lisp/transient"]
 	path = lisp/transient
@@ -25,3 +25,6 @@
 [submodule "lisp/notmuch"]
 	path = lisp/notmuch
 	url = https://github.com/notmuch/notmuch.git
+[submodule "lisp/libegit2"]
+	path = lisp/libegit2
+	url = https://github.com/magit/libegit2.git
