@@ -22,3 +22,6 @@
 [submodule "lisp/projectile"]
 	path = lisp/projectile
 	url = https://github.com/bbatsov/projectile
+[submodule "lisp/notmuch"]
+	path = lisp/notmuch
+	url = https://github.com/notmuch/notmuch.git

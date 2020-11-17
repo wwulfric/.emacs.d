@@ -21,6 +21,6 @@
 ;;; Code:
 
 (require 'notmuch)
-
+(setq notmuch-search-oldest-first nil)
 (provide 'init-email)
 ;;; init-email.el ends here

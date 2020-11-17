@@ -35,5 +35,6 @@
   ; (require 'init-ivy)
   (require 'init-ido)
   (require 'init-projectile)
+  ; (require 'init-email)
   ;(require 'snails)
 )
